@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>wannabedev.io - Portfolio Website Concept with Advanced Circular Motion</title>
+		<meta name="description" content="An animated portfolio website concept with the circular motion made with HTML5, CSS3, Javascript and Greensock." />
+		<meta name="keywords" content="greensock, gsap, website, javascript, portfolio, css, html, inspiration" />
+		<meta name="author" content="Mirza Hodzic" />
+		<link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJR1BPWFF0"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-SJR1BPWFF0', {
+        page_path: window.location.pathname,
+      });
+    </script>
+  </head>
+  <body>
+    
+    <!-- wannabedev:loader START -->
+    <div class="loader">
+      <div class="lds-ripple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- wannabedev:loader END -->
+
+    <!-- wannabedev:header START -->
+    <header>
+      <div class="header-inner">
+        <div class="logo">
+          <a href="#"><span>#</span>SHADES</a>
+        </div>
+        <nav class="navigation">
+          <li><a href="#">Home</a></li>
+          <li><a href="">Back to article</a></li>
+        </nav>
+      </div>
+    </header>
+    <!-- wannabedev:header END -->
+
+    <!-- wannabedev:slideshow START -->
+    <section class="slideshow">
+
+      <!-- slideshow:content:item START -->
+      <div class="content main-content" data-id="content-1" style="background-image: url(https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);">
+        <div class="inner">
+          <h2>Landscape</h2>
+          <div class="description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum hic blanditiis fugit laboriosam a ad tempora, rem modi deleniti, odit dolores et, doloribus quo quaerat nihil fuga. Sapiente, voluptatem, dolor.</p>
+            <a href="#">Details</a>
+          </div>
+        </div>
+      </div>
+      <!-- slideshow:content:item END -->
+
+    <!-- slideshow:content:item START -->
+      <div class="content main-content-1" data-id="content-2">
+        <div class="inner">
+          <h2>Portrait</h2>
+          <div class="description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum hic blanditiis fugit laboriosam a ad tempora, rem modi deleniti, odit dolores et, doloribus quo quaerat nihil fuga. Sapiente, voluptatem, dolor.</p>
+            <a href="#">Details</a>
+          </div>
+        </div>
+      </div>
+      <!-- slideshow:content:item END -->
+
+    <!-- slideshow:content:item START -->
+      <div class="content main-content-2" data-id="content-3">
+        <div class="inner">
+          <h2>Architectur</h2>
+          <div class="description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum hic blanditiis fugit laboriosam a ad tempora, rem modi deleniti, odit dolores et, doloribus quo quaerat nihil fuga. Sapiente, voluptatem, dolor.</p>
+            <a href="#">Details</a>
+          </div>
+        </div>
+      </div>
+      <!-- slideshow:content:item END -->
+
+    <!-- slideshow:content:item START -->
+      <div class="content main-content-3" data-id="content-4">
+        <div class="inner">
+          <h2>Wedding</h2>
+          <div class="description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum hic blanditiis fugit laboriosam a ad tempora, rem modi deleniti, odit dolores et, doloribus quo quaerat nihil fuga. Sapiente, voluptatem, dolor.</p>
+            <a href="#">Details</a>
+          </div>
+        </div>
+      </div>
+      <!-- slideshow:content:item END -->
+
+      <!-- slideshow:rotating-backgrounds END -->
+      <div class="background main-background"></div>
+      <div class="background main-background-1"></div>
+      <div class="background main-background-2"></div>
+      <div class="background main-background-3"></div>
+      <!-- slideshow:rotating-backgrounds END -->
+
+      <!-- slideshow:navigation START -->
+      <ul class="navigation">
+        <li class="nav-item" data-id="1" data-rotation="0" data-bcg="https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80">
+          <span>#1</span>
+        </li>
+        <li class="nav-item" data-id="2" data-rotation="90" data-bcg="https://images.unsplash.com/photo-1450155155194-cd8ac3c4e18c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80">
+          <span>#2</span>
+        </li>
+        <li class="nav-item" data-id="3" data-rotation="180" data-bcg="https://images.unsplash.com/photo-1604774083957-ec92fbd627ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1053&q=80">
+          <span>#3</span>
+        </li>
+        <li class="nav-item" data-id="4" data-rotation="270" data-bcg="https://images.unsplash.com/photo-1542598688-76ad90c5b01e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80">
+          <span>#4</span>
+        </li>
+      </ul>
+      <!-- slideshow:navigation END -->
+
+    </section>
+    <!-- wannabedev:slideshow END -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4.1.4/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/demo.js"></script>
+
+  </body>
+</html>
