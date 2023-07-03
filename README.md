@@ -6,7 +6,7 @@ An animated portfolio website concept with the circular motion made with HTML5, 
 
 [Article on WANNABEDEV](https://wannabedev.io/tutorials/portfolio-website-concept-with-advanced-circular-motion)
 
-[Demo](https://wannabedev.io/_posts/demo/portfolio-website-concept-with-advanced-circular-motion)
+[Demo](https://wannabedev.io/_posts/portfolio-website-concept-with-advanced-circular-motion/demo/index.html)
 
 ## Credits
 - [GSAP](https://greensock.com) by Greensock
