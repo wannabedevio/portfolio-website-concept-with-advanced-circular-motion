@@ -8,7 +8,7 @@
  * https://wannabedev.io
  */
 
- function initializeSlideshow() {
+function initializeSlideshow() {
   // Init variables
   const slideshow = document.querySelector('.slideshow');
   const loader = document.querySelector('.loader');
