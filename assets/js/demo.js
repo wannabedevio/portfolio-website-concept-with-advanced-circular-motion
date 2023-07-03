@@ -14,7 +14,6 @@
   const loader = document.querySelector('.loader');
   const navItems = document.querySelectorAll('.nav-item');
   const background = document.querySelectorAll('.background');
-  const holder = document.querySelector('.holder');
   const content = document.querySelectorAll('.content');
   let activeID = null;
   let activeImage = null;
@@ -28,7 +27,7 @@
 
     // Demo
     gsap.config({
-      force3D: false
+      force3D: false,
     });
 
     // Set tween values
@@ -43,10 +42,10 @@
     function doTween() {
       content.forEach(function(elem) {
         gsap.set(elem, {
-          backgroundImage: ''
+          backgroundImage: '',
         });
         gsap.set(elem.querySelector('.inner'), {
-          autoAlpha: 0
+          autoAlpha: 0,
         });
       });
 
